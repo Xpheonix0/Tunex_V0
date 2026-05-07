@@ -1,5 +1,5 @@
 """Panel displaying performance metrics of the latest simulation."""
-
+import numpy as np
 from PySide6.QtWidgets import QWidget, QGroupBox, QFormLayout, QLabel
 from PySide6.QtCore import Qt
 
