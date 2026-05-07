@@ -1,4 +1,4 @@
-TuneX V0
+# TuneX V0
 
 TuneX V0 is a local desktop PID tuning and control-system experimentation tool built with Python.
 
@@ -8,7 +8,7 @@ TuneX is designed as the foundation for future embedded and robotics-oriented tu
 
 ---
 
-Features
+## Features
 
 * Real-time PID simulation
 * Live response graph rendering
@@ -24,7 +24,9 @@ Features
 * Modular multi-file architecture
 * Cross-platform desktop support
 
-Tech Stack
+---
+
+## Tech Stack
 
 * Python
 * PySide6
@@ -33,9 +35,9 @@ Tech Stack
 
 ---
 
-Architecture
+## Architecture
 
-```
+```text
 tunex/
 ├── core/
 ├── ui/
@@ -53,17 +55,17 @@ The project follows a modular structure with clear separation between:
 
 ---
 
-Current Version (V0)
+## Current Version (V0)
 
 TuneX V0 is an experimentation and simulation-focused release.
 
-Current Scope
+### Current Scope
 
 * Simulated first-order system
 * Desktop visualization
 * Manual PID tuning workflow
 
-Planned Future Features
+### Planned Future Features
 
 * Hardware telemetry
 * ESP32/Pico integration
@@ -74,7 +76,7 @@ Planned Future Features
 
 ---
 
-Running the Project
+## Running the Project
 
 Install dependencies:
 
