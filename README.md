@@ -1,202 +1,101 @@
-# \# TuneX V0
+TuneX V0
 
-# 
+TuneX V0 is a local desktop PID tuning and control-system experimentation tool built with Python.
 
-# TuneX V0 is a local desktop PID tuning and control-system experimentation tool built with Python.
+It focuses on real-time simulation, live response visualization, iterative PID tuning, and engineering-focused workflow design.
 
-# 
+TuneX is designed as the foundation for future embedded and robotics-oriented tuning systems.
 
-# It focuses on real-time simulation, live response visualization, iterative PID tuning, and engineering-focused workflow design.
+---
 
-# 
+Features
 
-# TuneX is designed as the foundation for future embedded and robotics-oriented tuning systems.
+* Real-time PID simulation
+* Live response graph rendering
+* Iterative tuning workflow
+* Performance metrics:
 
-# 
+  * Overshoot
+  * Settling time
+  * Rise time
+  * Steady-state error
+* Tuning history visualization
+* Dark engineering-style UI
+* Modular multi-file architecture
+* Cross-platform desktop support
 
-# \---
+Tech Stack
 
-# 
+* Python
+* PySide6
+* PyQtGraph
+* NumPy
 
-# \## Features
+---
 
-# 
+Architecture
 
-# \* Real-time PID simulation
+```
+tunex/
+├── core/
+├── ui/
+├── models/
+└── utils/
+```
 
-# \* Live response graph rendering
+The project follows a modular structure with clear separation between:
 
-# \* Iterative tuning workflow
+* simulation logic
+* PID control
+* metrics analysis
+* UI rendering
+* tuning workflow
 
-# \* Performance metrics:
+---
 
-# 
+Current Version (V0)
 
-# &#x20; \* Overshoot
+TuneX V0 is an experimentation and simulation-focused release.
 
-# &#x20; \* Settling time
+Current Scope
 
-# &#x20; \* Rise time
+* Simulated first-order system
+* Desktop visualization
+* Manual PID tuning workflow
 
-# &#x20; \* Steady-state error
+Planned Future Features
 
-# \* Tuning history visualization
+* Hardware telemetry
+* ESP32/Pico integration
+* Wireless tuning
+* PlatformIO workflows
+* AI-assisted tuning
+* Robotics control applications
 
-# \* Dark engineering-style UI
+---
 
-# \* Modular multi-file architecture
+Running the Project
 
-# \* Cross-platform desktop support
+Install dependencies:
 
-# 
+```bash
+pip install -r requirements.txt
+```
 
-# \---
+Run the application:
 
-# 
+```bash
+python main.py
+```
 
-# \## Tech Stack
+---
 
-# 
+## Screenshots
 
-# \* Python
+![TuneX Screenshot](assets/screenshot1.png)
 
-# \* PySide6
+---
 
-# \* PyQtGraph
+## License
 
-# \* NumPy
-
-# 
-
-# \---
-
-# 
-
-# \## Architecture
-
-# 
-
-# ```text
-
-# tunex/
-
-# ├── core/
-
-# ├── ui/
-
-# ├── models/
-
-# └── utils/
-
-# ```
-
-# 
-
-# The project follows a modular structure with clear separation between:
-
-# 
-
-# \* simulation logic
-
-# \* PID control
-
-# \* metrics analysis
-
-# \* UI rendering
-
-# \* tuning workflow
-
-# 
-
-# \---
-
-# 
-
-# \## Current Version (V0)
-
-# 
-
-# TuneX V0 is an experimentation and simulation-focused release.
-
-# 
-
-# Current scope:
-
-# 
-
-# \* simulated first-order system
-
-# \* desktop visualization
-
-# \* manual PID tuning workflow
-
-# 
-
-# Future versions may include:
-
-# 
-
-# \* hardware telemetry
-
-# \* ESP32/Pico integration
-
-# \* wireless tuning
-
-# \* PlatformIO workflows
-
-# \* AI-assisted tuning
-
-# \* robotics control applications
-
-# 
-
-# \---
-
-# 
-
-# \## Running the Project
-
-# 
-
-# Install dependencies:
-
-# 
-
-# ```bash
-
-# pip install -r requirements.txt
-
-# ```
-
-# 
-
-# Run the application:
-
-# 
-
-# ```bash
-
-# python main.py
-
-# ```
-
-# 
-
-# \---
-
-# 
-
-# \## Screenshots
-
-# 
-
-# !\[TuneX Screenshot](assets/screenshot1.png)
-
-# 
-
-# \## License
-
-# 
-
-# MIT License
-
+MIT License
